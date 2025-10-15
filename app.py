@@ -4,6 +4,8 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import io
 
+st.image('IMG/UNIDAD DE ESTAFAS.png', use_container_width=True)
+
 # Configuración de la página
 st.set_page_config(
     page_title="Clasificador de Procesos Judiciales",
@@ -166,4 +168,3 @@ if uploaded_file is not None:
         else:
             st.balloons()
             st.success("🎉 **¡Excelente!** Todos los procesos tienen una 'Última Actuación' dentro de los últimos dos meses.")
-            
